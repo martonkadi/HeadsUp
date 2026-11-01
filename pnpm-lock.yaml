@@ -203,8 +203,8 @@ importers:
         specifier: 4.10.2
         version: 4.10.2
       happy-dom:
-        specifier: 20.14.5
-        version: 20.14.5
+        specifier: 21.0.4
+        version: 21.0.4
       supabase:
         specifier: 2.117.0
         version: 2.117.0
@@ -219,7 +219,7 @@ importers:
         version: 8.3.1(@types/node@26.6.3)(esbuild@0.28.2)(tsx@4.23.13)
       vitest:
         specifier: 4.0.18
-        version: 4.0.18(@types/node@26.6.3)(happy-dom@20.14.5)(lightningcss@1.33.0)(tsx@4.23.13)
+        version: 4.0.18(@types/node@26.6.3)(happy-dom@21.0.4)(lightningcss@1.33.0)(tsx@4.23.13)
       wrangler:
         specifier: 4.131.1
         version: 4.131.1(@types/node@26.6.3)
@@ -1649,8 +1649,8 @@ packages:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
     engines: {node: '>=18'}
 
-  happy-dom@20.14.5:
-    resolution: {integrity: sha512-x/RzkpWO40bTjIoT30iQtt64FLLmH/iRcUCN2X//bLx7H3ifkdfPXyqsro/OYtqzIAhiLMMA7mmiOR9C3NOKjQ==}
+  happy-dom@21.0.4:
+    resolution: {integrity: sha512-tFm+GaLBgo6o0awHnvHaNoraVo27qJ+2tZEtZ+cIa08hXbeitrxAJajLI05hsUy/2/YTKcUjQYzHe5mCcraLBw==}
     engines: {node: '>=20.0.0'}
 
   has-flag@4.0.0:
@@ -3232,7 +3232,7 @@ snapshots:
 
   globals@14.0.0: {}
 
-  happy-dom@20.14.5:
+  happy-dom@21.0.4:
     dependencies:
       '@types/node': 26.6.3
       '@types/whatwg-mimetype': 3.0.2
@@ -3650,7 +3650,7 @@ snapshots:
       fsevents: 2.3.3
       tsx: 4.23.13
 
-  vitest@4.0.18(@types/node@26.6.3)(happy-dom@20.14.5)(lightningcss@1.33.0)(tsx@4.23.13):
+  vitest@4.0.18(@types/node@26.6.3)(happy-dom@21.0.4)(lightningcss@1.33.0)(tsx@4.23.13):
     dependencies:
       '@vitest/expect': 4.0.18
       '@vitest/mocker': 4.0.18(vite@7.3.6(@types/node@26.6.3)(lightningcss@1.33.0)(tsx@4.23.13))
@@ -3674,7 +3674,7 @@ snapshots:
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 26.6.3
-      happy-dom: 20.14.5
+      happy-dom: 21.0.4
     transitivePeerDependencies:
       - jiti
       - less
